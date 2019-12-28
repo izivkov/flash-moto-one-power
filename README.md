@@ -1,6 +1,6 @@
 # Flashing the ***Motorola One Power*** with official Android 10 ROM
 
-Here are the steps to flash a complete new official rom for Moto One Power. You need [fastboot](https://androidmtk.com/download-minimal-adb-and-fastboot-tool) utility installed on your machine. This procedure works best in Linux, but you should be able to run it in Windows ny rinning the ```fastboot``` stets in the ```flashfile.sh```. 
+Here are the steps to flash a complete new official rom for [Moto One Power](https://www.digitaltrends.com/mobile/motorola-one-power-news-rumors-specs-and-more/). You need [fastboot](https://androidmtk.com/download-minimal-adb-and-fastboot-tool) utility installed on your machine. This procedure works best in Linux, but you should be able to run it in Windows by running the ```fastboot``` steps in the ```flashfile.sh```. 
 
 1. Download the ROM from [here](https://mirrors.lolinet.com/firmware/moto/chef/official/RETIN/XT1942-2_CHEF_RETIN_10_QPT30.61-18_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip). If your phone is different, you can get different official roms by vising [this](https://mirrors.lolinet.com/firmware/moto/chef/official) site.
 
