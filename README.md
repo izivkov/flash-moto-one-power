@@ -15,4 +15,4 @@ chmod +x ./flashfile.sh
 sudo ./flashfile.sh
 ```
 
-> (This file was created using [this](https://github.com/dlenski/motoflash2sh) utility, so if for some reason the this shell does not work for you, you can recreate it using instructions on this link.
+> Note: ***This file was created using [this](https://github.com/dlenski/motoflash2sh) utility, so if for some reason the this shell does not work for you, you can recreate it using instructions on this link.***
