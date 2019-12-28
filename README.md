@@ -1,6 +1,6 @@
 # Flashing the ***Motorola One Power*** with official Android 10 ROM
 
-**Note: This procedure will erase all data on your phone, and you need to restore from backup.**
+**WARNING!!!: This procedure will erase all data on your phone, and you need to restore from backup.**
 
 Here are the steps to flash a complete new official rom for [Moto One Power](https://www.digitaltrends.com/mobile/motorola-one-power-news-rumors-specs-and-more/). You need [fastboot](https://androidmtk.com/download-minimal-adb-and-fastboot-tool) utility installed on your machine. This procedure works best in Linux, but you should be able to run it in Windows by running the ```fastboot``` steps in the ```flashfile.sh```. 
 
