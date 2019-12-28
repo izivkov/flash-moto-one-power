@@ -17,6 +17,6 @@ chmod +x ./flashfile.sh
 sudo ./flashfile.sh
 ```
 
-Note: ***This file was created using [this](https://github.com/>dlenski/motoflash2sh) utility, so if for some reason the this shell script does not work for you, you can recreate it using instructions on from the above link.***
+Note: ***This file was created using [this](https://github.com/dlenski/motoflash2sh) utility, so if for some reason the this shell script does not work for you, you can recreate it using instructions on from the above link.***
 
 5. After a few minutes, your phone will reboot into Android 10.
