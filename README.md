@@ -8,7 +8,7 @@ Here are the steps to flash a complete new official rom for [Moto One Power](htt
 
 2. Unzip the above file into a new directory. 
 
-4. Put your phone in [fastboot](https://support.essential.com/hc/en-us/articles/360011974574-Reset-your-phone-from-Recovery-Mode) mode.
+4. Put your phone in [fastboot](https://source.android.com/setup/build/running) mode.
 
 5. Also copy the provided ```flashfile.sh``` into the same directory, and run it:
 
