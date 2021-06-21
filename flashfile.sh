@@ -4,7 +4,7 @@ cd ""
 
 # <header>
 #     <phone_model model="chef" />
-#     <software_version version="chef-user 10 QPT30.61-18 18a03 release-keysM636_29.59.01.100R" />
+#     <software_version version="chef-user 10 QPTS30.61-18-16-11 7a034 release-keysM636_31.85.01.102R" />
 #     <subsidy_lock_config MD5="d41d8cd98f00b204e9800998ecf8427e" name="slcf_rev_d_default_v1.0.nvm" />
 #     <regulatory_config SHA1="da39a3ee5e6b4b0d3255bfef95601890afd80709" name="regulatory_info_default.png" />
 #     <sparsing enabled="true" max-sparse-size="536870912" />
@@ -14,23 +14,23 @@ cd ""
 #   </header>
 
 md5sum --check <<EOF || exit 1
-c765be53f583ad85b26dca4d34ae4c31 *gpt.bin
-87fb661b841401b74ca4f9cd3d713638 *bootloader.img
-7f50f19c5f6941fdae46e3016ef8eabe *NON-HLOS.bin
-7f9eb702d878925e21b0ea572d638535 *fsg.mbn
-8671ce8fbf0e5cb45b99223c8d12be74 *BTFM.bin
+021880d9f74262fcb0a771b249df2db8 *gpt.bin
+b19f3ae62640bebae50ae5648c94b49a *bootloader.img
+2eb4d10cedccae623916a92ed886ffae *NON-HLOS.bin
+1ccd8bae81ec82e6bd4f76bd701ee5ae *fsg.mbn
+70a5fb33330c34ea375800f61a0efc1e *BTFM.bin
 6e958346ad45b90549554969c9c391a1 *dspso.bin
-b3371f18d62a46660a02d228568431ac *logo.bin
-3b2186261706956e09bcf9d777c57194 *boot.img
-feb03ff50a4345ea7bf298e525f5e647 *system.img_sparsechunk.0
-5e49f2e0a59247471e02a5808be85757 *system.img_sparsechunk.1
-428fb14043e8172fc24a71462430e121 *system.img_sparsechunk.2
-596819c5ffc5dbadf0df6e0ffd841355 *system.img_sparsechunk.3
-1e13616102407005b10216a866bf654b *system.img_sparsechunk.4
-8afb4b900b4c1cd1f2bf3004f160bebc *system_other.img
-af9cb1340c254fff750ad3e08ed0bb28 *vendor.img
-6814f0e5483c47cea95e8f8459c7698b *oem.img
-02ea0362aece84c33a68693e06b16417 *oem_other.img
+cc282c564867624f82cecb26f6fb1fc8 *logo.bin
+05bbe21541f9725c9a411c6ad88e9141 *boot.img
+d90a2798aa165bf04e5f17af210176c8 *system.img_sparsechunk.0
+8ecce66072b7115811d42fc8a244cf62 *system.img_sparsechunk.1
+a41d35e1aff9398ed5990ba887ce38b3 *system.img_sparsechunk.2
+37afd86f3b100723cd4de55ea43e82f3 *system.img_sparsechunk.3
+69bc92f38837aa353a1b89ce07f6cabb *system.img_sparsechunk.4
+3116c73ff2928750cdc90d3670b2bd1d *system_other.img
+9ab400d045154b6d64a98ae738145d2b *vendor.img
+2969aada81aaf463bbd70d0f9ea856e8 *oem.img
+163ba801b0b9bb693a8ca5bd9f34f80d *oem_other.img
 EOF
 
 fastboot getvar max-sparse-size || exit 1
